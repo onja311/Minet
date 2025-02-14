@@ -7,21 +7,30 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <div id="splash-screen">
         <div class="logo">
-            <h1>MINET</h1>
+            <h1>M</h1>
+            <div class="dots">....</div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="profile.html">Profilako</a></li>
-                <li><a href="settings.html">Fikirana</a></li>
-                <li><a href="shop.html">Fivarotana</a></li>
-                <li><a href="logout.html">Hivoaka</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+    </div>
+    <main id="main-content" style="display: none;">
+        <header>
+            <div class="logo">
+                <h1>MINET</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">Profilako</a></li>
+                    <li><a href="settings.html">Fikirana</a></li>
+                    <li><a href="shop.html">Fivarotana</a></li>
+                    <li><a href="logout.html">Hivoaka</a></li>
+                </ul>
+            </nav>
+        </header>
         <section class="login-container">
             <h2>Midira ao amin'ny Kaontinao</h2>
             <form action="login_action.php" method="post">
