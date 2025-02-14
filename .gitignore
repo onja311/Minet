@@ -1,16 +1,7 @@
-# Général
-.DS_Store
-Thumbs.db
-
 # Node.js
 node_modules/
 npm-debug.log
 yarn-error.log
-.yarn-integrity
-
-# Variables d'environnement
-.env
-.env.*.local
 
 # Logs
 logs
@@ -19,115 +10,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Fichiers spécifiques à l'IDE
-.idea/
-.vscode/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# Fichiers du système d'exploitation
+# OS
 .DS_Store
 Thumbs.db
 
-# Android / iOS
-# Android Studio
-.gradle/
-local.properties
-/.idea
-/.classpath
-/.project
-/.settings
-/.loadpath
-/.vscode
-
-# macOS
-build/
-.xcworkspace/
-!default.xcworkspace
-!ios/Pods
-!ios/Flutter
-!ios/.symlinks
-!ios/Flutter/Flutter.framework
-!android/.gradle/
-!android/.idea/
-!ios/.idea/
-!ios/build/
-!ios/Flutter/Generated.xcconfig
-!ios/Flutter/ephemeral/
-/flutter_secure_storage/
-android/local.properties
-*.lock
-*.keystore
-android/key.properties
-!android/.gradle
-!android/.idea
-!android/build
-!ios/.symlinks
-ios/Pods/
-
-# Web
-node_modules/
-bower_components/
-.yarn-integrity
-
-# Sorties de build frontend
-dist/
-build/
-cache/
-out/
-
-# Couverture
-coverage/
-
-# TypeScript
-*.tsbuildinfo
-
-# Python
-*.py[cod]
-*.egg
-*.egg-info/
-dist/
-build/
-__pycache__/
-
-# Java
-*.class
-*.jar
-*.war
-*.ear
-*.nar
-*.car
-hs_err_pid*
-replay_pid*
-
-# .NET
-project.lock.json
-project.fragment.lock.json
-artifacts/
-
-# Visual Studio Code
+# IDEs
 .vscode/
-.vscode-test/
-
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-
-# macOS
-*.DS_Store
-.AppleDouble
-.LSOverride
-
-# Fichiers de déploiement
-!deploy.sh
-!deploy-config.yml
-
-# Documentation
-*.doc
-*.docx
-*.pdf
+.idea/
