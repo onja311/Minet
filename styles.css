@@ -10,6 +10,51 @@ body {
     margin: 0;
 }
 
+#splash-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #4B0082; /* Loko violet */
+    color: #ffffff; /* Loko fotsy */
+}
+
+#splash-screen .logo h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+#splash-screen .dots {
+    font-size: 2rem;
+    margin-top: -10px;
+}
+
+#splash-screen .progress-bar {
+    width: 80%;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#splash-screen .progress-bar .progress {
+    width: 0;
+    height: 100%;
+    background-color: #4B0082; /* Loko violet */
+    border-radius: 5px;
+    animation: progress-animation 3s ease-in-out forwards;
+}
+
+@keyframes progress-animation {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
 header {
     background-color: #4B0082; /* Loko violet */
     color: #ffffff; /* Loko fotsy */
