@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="mg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINET</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>MINET</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profilako</a></li>
+                <li><a href="settings.html">Fikirana</a></li>
+                <li><a href="shop.html">Fivarotana</a></li>
+                <li><a href="logout.html">Hivoaka</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="login-container">
+            <h2>Midira ao amin'ny Kaontinao</h2>
+            <form action="login_action.php" method="post">
+                <input type="text" id="emailOrPhone" name="emailOrPhone" placeholder="Laharana finday na Email" required>
+                <input type="password" id="password" name="password" placeholder="Teny miafina" required>
+                <button type="submit">Hiditra</button>
+            </form>
+            <p><a href="forgot_password.html">Adino ny teny miafina?</a> | <a href="register.html">Hisoratra anarana</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 MINET. Zo rehetra voatokana.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
